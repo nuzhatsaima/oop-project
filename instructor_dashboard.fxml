@@ -1,0 +1,21 @@
+package controllers;
+
+        import javafx.fxml.FXML;
+        import javafx.scene.control.Button;
+        import javafx.scene.control.TableView;
+        import models.Assignment;
+
+        public class InstructorDashboardController {
+        @FXML private TableView<Assignment> submissionsTable;
+    @FXML private Button gradeButton;
+
+    @FXML
+    public void initialize() {
+    // Load submissions
+    }
+
+    @FXML
+    private void handleGrade() {
+    // Grade and feedback logic
+    }
+    }

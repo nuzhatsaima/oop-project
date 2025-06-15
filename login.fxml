@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controllers.LoginController"
+      spacing="15"
+      alignment="CENTER">
+
+    <padding>
+        <Insets top="25" right="25" bottom="25" left="25"/>
+    </padding>
+
+    <Label text="Assignment Tracker Login" style="-fx-font-size: 18px;" />
+    <TextField fx:id="emailField" promptText="Email" />
+    <PasswordField fx:id="passwordField" promptText="Password" />
+
+    <Button text="Login" onAction="#handleLogin" />
+    <Hyperlink text="Don't have an account? Sign up" onAction="#goToSignup"/>
+
+</VBox>

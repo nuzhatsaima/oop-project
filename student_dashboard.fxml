@@ -1,0 +1,21 @@
+package controllers;
+
+        import javafx.fxml.FXML;
+        import javafx.scene.control.Button;
+        import javafx.scene.control.TableView;
+        import models.Assignment;
+
+        public class StudentDashboardController {
+        @FXML private TableView<Assignment> assignmentTable;
+    @FXML private Button uploadButton;
+
+    @FXML
+    public void initialize() {
+    // Load student assignments
+    }
+
+    @FXML
+    private void handleUpload() {
+    // Upload logic
+    }
+    }
